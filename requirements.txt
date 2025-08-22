@@ -1,0 +1,13 @@
+streamlit
+PyPDF2
+python-docx
+sentence-transformers
+scikit-learn
+rapidfuzz
+plotly
+spacy
+numpy
+pandas
+google-genai
+python-dotenv
+spacy-transformers
