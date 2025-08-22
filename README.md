@@ -1,20 +1,86 @@
-# ResumeMatch
+# 🚀 ResumeMatch — AI-Powered Resume–Job Matching Beyond Keywords
 
-**ResumeMatch** is a tool to help recruiters and job seekers analyze resume-to-job description matching.  
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Prototype-red)](https://streamlit.io/)
+[![spaCy](https://img.shields.io/badge/spaCy-Transformer%20NER-09b)](https://spacy.io/)
+[![HuggingFace](https://img.shields.io/badge/HF-Models-yellow)](https://huggingface.co/)
+[![Gemini](https://img.shields.io/badge/LLM-Gemini%202.5%20Flash%20Lite-black)](https://ai.google.dev/)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
-## Features
-- Upload job descriptions and candidate resumes
-- Compute match scores for Hard Skills, Soft Skills, Education, and Experience
-- Visualize results with progress bars and score cards
-- Identify top missing skills per candidate
+> ResumeMatch goes beyond keyword ATS by combining **structured NER extraction**, **semantic embeddings**, and a **Streamlit** UI with **Gemini**-powered interview questions.
 
-## How to Use
-1. Go to the **Job Seeker** tab to see your resume match against a job.
-2. Go to the **Recruiter** tab to upload multiple resumes and rank candidates.
-3. Adjust the **threshold slider** to change matching sensitivity.
+---
 
-## Gemini API Configuration
-ResumeMatch uses the **Gemini API** for advanced embedding-based similarity scoring.  
+## 🔎 Problem & Motivation
+Traditional Applicant Tracking Systems (ATS) rely on **keyword filters**. They miss context, penalize formatting, and overlook **transferable skills**—leading to **misaligned matches** and **inefficient screening**.
+
+**ResumeMatch** addresses this by:
+- Extracting structured entities (**Skills, Education, Experience**) from JDs and resumes,
+- Matching candidates and jobs with **semantic similarity models**,
+- Providing **explainable** recruiter tools: ranking, clustering, and skill-gap analysis,
+- Generating **tailored interview questions** with Gemini.
+
+---
+
+## 🧪 Methodology (Research Pipeline)
+
+### 1) Job Description Parsing (10 methods, 3 groups)
+- **Skills/Embeddings-based:** basic keywords, YAKE, spaCy PhraseMatcher, embedding similarity  
+- **Model-based:** multiple **pre-trained NER** models (Hugging Face) + **LLM-based extraction** (using Prompt engineering)  
+- **Transformer NER (custom):** **spaCy** transformer model trained on **150 annotated JDs** for Skills/Education/Experience
+
+### 2) Resume Parsing
+- Compared **PyResparser**, **Custom transformer NER**, and **LLM-based** extraction
+
+### 3) Resume–Job Matching
+- Benchmarked **TF-IDF**, **LDA**, **Word2Vec**, and **BERT** embeddings  
+- Agreement & ranking metrics + **cluster visualization** (LDA vs BERT)
+
+---
+
+## 📈 Results (Concise, Defensible)
+- **Custom NER** → **Best for Skills extraction** (precision/F1 & Jaccard win)  
+- **LLM parser** → **Best for Education**; **higher recall on Experience** (NER led on Experience F1/Jaccard)  
+- **LDA** → **Best ranking separation** (Separation@K)  
+- **BERT** → **Best reciprocal agreement & mutual rank;** clearest clusters in PCA  
+- **Prototype** → Demonstrated **candidate ranking**, **skill-gap analysis**, and **interview question support**
+
+> `Docs/clustering.png` (LDA vs BERT) for a quick visual of cluster separation.
+<img width="967" height="717" alt="image" src="https://github.com/user-attachments/assets/01debaff-36e6-42cd-829f-0510a96e09a3" />
+
+---
+
+## 🧰 Streamlit Prototype (Product View)
+
+The app is designed for **two audiences**:
+
+### 🧑 Job Seeker View
+- Upload a resume → see **best-fit jobs**
+- **Skill-gap** feedback (what to learn/build)
+- **Interview prep** via Gemini (role-/resume-aware)
+
+### 🏢 Recruiter View
+- Upload resumes + JD → **ranked candidates** with Weighted similarity scoring
+- **Clustering explorer** using BERT embeddings
+
+---
+
+## ⚙️ Installation
+
+### 1) Clone & Environment
+```bash
+git clone https://github.com/rabiadanish/ResumeMatch.git
+cd ResumeMatch
+python -m venv .venv
+# Windows: .venv\Scripts\activate
+# macOS/Linux:
+source .venv/bin/activate
+# Install the required dependencies
+pip install -r requirements.txt
+# Run Streamlit app
+streamlit run app/app.py
+```
+### 2) Gemini API Configuration
 To configure:
 
 1. Sign up or log in to your Gemini account to obtain your **API key**.
@@ -23,14 +89,19 @@ To configure:
 or in Python:
 ```python
 import os
-os.environ["GEMINI_API_KEY"] = "your_api_key_here"
+os.environ["GEMINI_API_KEY"] = "your_api_key"
 ```
-3. ResumeMatch automatically reads this key when computing embeddings.
-4. Ensure your network allows outbound API calls to Gemini.                        
+3. ResumeMatch automatically reads this key when generating interview questions.
+4. Ensure your network allows outbound API calls to Gemini.
 
+---
 
-                 
-	
-                                                                                      
+## ▶️ Demo Video
+Watch: docs/demo.mp4 
 
-                                                                                     
+---
+## 🔐 Data & Privacy
+
+- No personal/proprietary resumes are included.
+- Use data/sample_resumes/ and data/sample_jobs for local demo.
+- Kaggle datasets: link in data/README.md.
