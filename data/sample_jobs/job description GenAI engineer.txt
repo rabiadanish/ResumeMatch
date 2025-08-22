@@ -1,0 +1,29 @@
+About the job
+Gen AI Engineer
+
+Candidate Requirements/Must Have Skills:
+
+Design, develop, and maintain sophisticated NLP and Generative AI applications in Python.
+Design and implement back-end APIs to deliver Python services to front-end applications using FastAPI and Docker
+Experience and exposure to Azure AI services, Vector databases, LLMs and RAG pipelines.
+Optimize application performance and ensure scalability.
+Collaborate in the database design and management of those systems (MongoDB)
+Proficiency in utilizing Azure services such as Azure App Service, Azure Functions, Azure API Management, Azure Logic Apps, and Azure DevOps for building and deploying API-based solutions
+Strong understanding of Azure architecture and infrastructure, including Azure Resource Manager (ARM) templates, Azure Active Directory (AAD), and Azure networking
+Demonstrated expertise in integrating Azure services with other components of the tech stack to create end-to-end solutions
+Ability to optimize performance and scalability of APIs and UI/UX solutions on Azure, including leveraging features like auto-scaling and caching.
+Strong knowledge of Azure DevOps practices for CI/CD pipelines, version control, and automated testing.
+Proficiency in utilizing Azure Kubernetes Service (AKS) for containerized deployment and orchestration of API-based solutions.
+Familiarity with Azure Container Registry (ACR) for storing and managing container images securely.
+Stay up to date with emerging trends and technologies in the field of Generative AI.
+
+
+Nice-To-Have Skills:
+
+Experience working with Python, particularly in relation to NLP and AI.
+Exposure to modern LLM-based libraries such as LangChain, PyTorch, GPT, Transformers
+
+
+Education:
+
+Bachelor’s degree in computer science, Engineering, Computational Linguistics, Data Science or a related quantitative field (or equivalent experience).

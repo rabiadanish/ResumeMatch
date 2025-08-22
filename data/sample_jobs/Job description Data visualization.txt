@@ -1,0 +1,41 @@
+Job description
+Data Analyst/Visualization – SQL/Python/Tableau
+On behalf of our Banking client, Procom is searching for a Data Analyst/Visualization – SQL/Python/Tableau for a 2.5-month contract with a possibility of extension located in Toronto, ON
+
+Data Analyst - Job Description:
+We are seeking a skilled Data Analyst with a strong focus on data discovery and collaboration with Subject Matter Experts (SMEs) to join our dynamic team. The successful candidate will be responsible for identifying, exploring, and analyzing complex datasets to uncover actionable insights, while ensuring that data solutions are aligned with business needs. This role is part of the Technology Program Management & Transformation group, supporting a cloud data migration and integration project for the International Banking division.
+
+Data Analyst - Responsibilities:
+• Identify, collect, and assess datasets from various internal and external sources.
+• Conduct exploratory data analysis (EDA) to identify trends, patterns, and anomalies.
+• Validate and clean data to ensure accuracy and integrity.
+• Collaborate with SMEs across departments (e.g., finance, operations, marketing) to gather business requirements.
+• Translate SME feedback into actionable data requirements and analytical outputs.
+• Develop and maintain dashboards, visualizations, and reports using Tableau, Power BI, or similar BI tools.
+• Utilize SQL and Python (or R) for querying, data manipulation, and statistical analysis.
+• Present findings to stakeholders in clear, non-technical language.
+• Document data sources, processes, and methodologies to support reproducibility and knowledge sharing.
+• Contribute to the development of data governance practices and process improvement initiatives.
+
+Data Analyst - Mandatory Skills:
+• 5+ years of experience in data analysis, with emphasis on data discovery and stakeholder engagement.
+• Proven experience working with SMEs to deliver data-driven solutions.
+• Proficiency in SQL for querying and manipulating large datasets.
+• Experience using Python, R, or similar tools for data analysis and visualization.
+• BI reporting experience with Tableau, Power BI, or similar tools.
+• Knowledge of data warehousing concepts and ETL processes.
+• Excellent communication and interpersonal skills.
+
+Data Analyst – Nice-to-Have Skills:
+• Experience with cloud-based data platforms (e.g., AWS, Azure, Google Cloud).
+• Familiarity with advanced statistical techniques or machine learning fundamentals.
+• Experience working in Agile or Scrum environments.
+
+Data Analyst – Assignment Length:
+This is a contract position from ASAP to October 31, 2025 (approximately 2.5 months), with a strong possibility of extension.
+
+Data Analyst - Start Date:
+ASAP
+
+Data Analyst - Assignment Location:
+Toronto, Ontario, Canada. This is a hybrid position, requiring in-office presence 3 days/week, increasing to 4 days/week starting September 15.

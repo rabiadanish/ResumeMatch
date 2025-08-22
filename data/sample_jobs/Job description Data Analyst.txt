@@ -1,0 +1,42 @@
+Job description
+Job Summary
+
+Job Description
+
+Please note: This is a 12-month contract role to cover a parental leave.
+
+What is the opportunity?
+
+The Data Analyst role on HEF Analytics team will be responsible for management reporting and developing automation solutions for HEF Business team.
+
+What will you do?
+• Execute and maintain reports in with regular cadence to ensure effective monitoring
+• Proactively identify inefficiency in the reporting process and responsible for automation solutions
+• Act as key contributor for coding migration from SAS to Python and further automation using advanced tools through collaboration with Infrastructure team
+• Optimize existing reports in Tableau and PowerPoint to tell stories using data. Collect feedbacks with various users to improve and meet their needs
+• Develop code samples for the team and establish coding standard
+
+What do you need to succeed?
+
+Must have:
+• 2+ years of data analytics or data science experience in the Financial Services industry, knowledge of credit products preferred
+• Proficient technical skills in SAS, SQL, Python, Tableau
+• Knowledge of data infrastructure and automation tools
+• Strong collaboration and time management-skills with high attention to detail
+• Effective written and verbal communication skills
+• Intellectually curious, independent, growth mindset with bias for action
+
+Nice to have:
+• Technical skills: experience with Data Lake, Trino, etc.
+• Understanding of the mortgage industry, including the financial drivers of the business
+• Bachelors /Masters degree in a quantitative field is (e.g. Statistics, Computer Science, Business, Economics, Engineering, etc.)
+
+What’s in it for you?
+
+We thrive on the challenge to be our best, progressive thinking to keep growing, and working together to deliver trusted advice to help our clients thrive and communities prosper. We care about each other, reaching our potential, making a difference to our communities, and achieving success that is mutual.
+• Ability to make a difference and lasting impact
+• Work in a dynamic, collaborative, progressive, and high-performing team
+• Opportunities to do challenging work
+
+Job Skills
+Critical Thinking, Data Administration, Data Mining, Data Modeling, Data Movement, Detail-Oriented, Group Problem Solving, Quantitative Research, Research Documents

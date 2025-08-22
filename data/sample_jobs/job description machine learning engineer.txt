@@ -1,0 +1,19 @@
+About the job
+Key Responsibilities
+
+Collect, process, and analyze large volumes of structured and unstructured data from various sources. 
+Develop and deploy machine learning models and algorithms for predictive analytics, classification, clustering, etc. 
+Design data pipelines and ETL processes to automate data flow. 
+Collaborate with data engineers and software developers to implement scalable data architectures. 
+Interpret model results, visualize insights, and communicate findings to stakeholders. 
+Monitor model performance and retrain models as necessary. 
+Ensure data quality, integrity, and compliance with data governance standards. 
+
+Required Skills
+
+Strong proficiency in Python/R and SQL. 
+Hands-on experience with ML frameworks like TensorFlow, PyTorch, or Scikit-learn. 
+Experience with big data tools and platforms like Spark, Hadoop, or Databricks. 
+Solid understanding of statistics, data mining, and data wrangling techniques. 
+Familiarity with cloud services (AWS, GCP, Azure) and MLOps tools. 
+Knowledge of version control (Git) and deployment strategies.
