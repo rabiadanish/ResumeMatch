@@ -1,4 +1,4 @@
-# 🚀 ResumeMatch — AI-Powered Resume–Job Matching Beyond Keywords
+# 🚀 ResumeMatch — A Dual-Role AI-Driven Platform for Transparent Resume-Job Compatibility and Enhanced Hiring Outcomes
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-Prototype-red)](https://streamlit.io/)
