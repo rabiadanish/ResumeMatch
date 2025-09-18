@@ -30,7 +30,7 @@ Traditional Applicant Tracking Systems (ATS) rely on **keyword filters**. They m
 
 ### 3) Resume–Job Matching
 - Benchmarked **TF-IDF**, **LDA**, **Word2Vec**, and **BERT** embeddings  
-- Agreement & ranking metrics + **cluster visualization** (LDA vs BERT)
+- Agreement & ranking metrics + **cluster visualization** (TF-IDF, LDA, Word2Vec and BERT)
 
 ## 📈 Results (Concise, Defensible)
 - **Custom NER** → **Best for Skills extraction** (precision/F1 & Jaccard win)  
