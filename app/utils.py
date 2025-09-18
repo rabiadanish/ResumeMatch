@@ -123,14 +123,10 @@ def preprocess_resume_text(raw_text):
     # Remove "Page 1", "Page 2" etc.
     text = re.sub(r"\bPage\s+\d+\b", "", text, flags=re.IGNORECASE)
 
-    # Replace common bullet characters ONLY when they act as list markers at line start
     bullet_pat = r"(?m)^\s*[•\u2022\u25CF\-\*\uf0b7]\s+"
     text = re.sub(bullet_pat, "- ", text)
-
-    # Remove stray emojis/symbol bullets that sometimes sneak in mid-line
     text = re.sub(r"[•\u2022\u25CF\uf0b7]+", " ", text)
-
-    # Normalize spaces (but keep single newlines)
+ 
     text = re.sub(r"[ \t]{2,}", " ", text)
     text = re.sub(r"\n{3,}", "\n\n", text)
     text = re.sub(r"(?<=\w)\s+(?=\w)", " ", text)
@@ -138,7 +134,6 @@ def preprocess_resume_text(raw_text):
     return text.strip()
 
 def parse_and_normalize(x):
-    # Using the exact function you provided (lowercasing + lemmatizing + dedupe)
     if isinstance(x, list):
         items = x
     elif isinstance(x, str):
@@ -371,7 +366,6 @@ def is_skill_matched_by_resume_single(skill_raw: str, resume_norm_list: list, th
     if not resume_norm_list:
         return False
 
-    # Normalize JD skill into parts using same parse_and_normalize logic
     jd_norm_parts = parse_and_normalize([skill_raw])  # returns list of normalized parts
     if not jd_norm_parts:
         # fallback to direct lowercase
@@ -487,4 +481,5 @@ def vector_from_entities(entities_norm: dict) -> np.ndarray:
     """
     combined = concat_entities(entities_norm)
     # aggregate_embeddings returns shape (1, D)
+
     return aggregate_embeddings(combined, embed_model)
