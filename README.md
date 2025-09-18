@@ -9,8 +9,6 @@
 
 > ResumeMatch goes beyond keyword ATS by combining **structured NER extraction**, **semantic embeddings**, and a **Streamlit** UI with **Gemini**-powered interview questions.
 
----
-
 ## 🔎 Problem & Motivation
 Traditional Applicant Tracking Systems (ATS) rely on **keyword filters**. They miss context, penalize formatting, and overlook **transferable skills**—leading to **misaligned matches** and **inefficient screening**.
 
@@ -19,8 +17,6 @@ Traditional Applicant Tracking Systems (ATS) rely on **keyword filters**. They m
 - Matching candidates and jobs with **semantic similarity models**,
 - Providing **explainable** recruiter tools: ranking, clustering, and skill-gap analysis,
 - Generating **tailored interview questions** with Gemini.
-
----
 
 ## 🧪 Methodology (Research Pipeline)
 
@@ -36,8 +32,6 @@ Traditional Applicant Tracking Systems (ATS) rely on **keyword filters**. They m
 - Benchmarked **TF-IDF**, **LDA**, **Word2Vec**, and **BERT** embeddings  
 - Agreement & ranking metrics + **cluster visualization** (LDA vs BERT)
 
----
-
 ## 📈 Results (Concise, Defensible)
 - **Custom NER** → **Best for Skills extraction** (precision/F1 & Jaccard win)  
 - **LLM parser** → **Best for Education**; **higher recall on Experience** (NER led on Experience F1/Jaccard)  
@@ -47,8 +41,6 @@ Traditional Applicant Tracking Systems (ATS) rely on **keyword filters**. They m
 
 > `Docs/clustering.png` (LDA vs BERT) for a quick visual of cluster separation.
 <img width="967" height="717" alt="image" src="https://github.com/user-attachments/assets/01debaff-36e6-42cd-829f-0510a96e09a3" />
-
----
 
 ## 🧰 Streamlit Prototype (Product View)
 
@@ -62,8 +54,6 @@ The app is designed for **two audiences**:
 ### 🏢 Recruiter View
 - Upload resumes + JD → **ranked candidates** with Weighted similarity scoring
 - **Clustering explorer** using BERT embeddings
-
----
 
 ## ⚙️ Installation
 
@@ -94,12 +84,9 @@ os.environ["GEMINI_API_KEY"] = "your_api_key"
 3. ResumeMatch automatically reads this key when generating interview questions.
 4. Ensure your network allows outbound API calls to Gemini.
 
----
-
 ## ▶️ Demo Video
 Watch: docs/demo.mp4 
 
----
 ## 🔐 Data & Privacy
 
 - No personal/proprietary resumes are included.
