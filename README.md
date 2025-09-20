@@ -47,13 +47,22 @@ Traditional Applicant Tracking Systems (ATS) rely on **keyword filters**. They m
 The app is designed for **two audiences**:
 
 ### 🧑 Job Seeker View
-- Upload a resume → see **best-fit jobs**
-- **Skill-gap** feedback (what to learn/build)
-- **Interview prep** via Gemini (role-/resume-aware)
+- Upload one resume and up to five job descriptions.
+- Automatic **entity extraction** (hard skills, soft skills, education, experience).
+- **Match scores** (semantic / exact / partial) across sections with interactive donut and bar charts.
+- **Skill-gap analysis**: see overlaps and missing skills per JD.
+- **LLM-powered interview prep**: generate tailored questions based on job description.
 
 ### 🏢 Recruiter View
-- Upload resumes + JD → **ranked candidates** with Weighted similarity scoring
-- **Clustering explorer** using BERT embeddings
+- Upload one job description and multiple candidate resumes.
+- **Clustering**: resumes are grouped using **PCA-reduced BERT embeddings + K-Means**.
+- The JD is matched to the **closest cluster centroid** (highest similarity).
+- **Ranking**: within the cluster, candidates are ranked by weighted semantic similarity (skills, education, experience).
+- **Candidate scorecards**:
+  - Overall match % with light indicators (🟢/🟡/🔴).
+  - Section-wise breakdown (skills, education, experience).
+  - Top missing skills (hard + soft).
+  - Overlaps & gaps via interactive tables.
 
 ## ⚙️ Installation
 
