@@ -1,0 +1,58 @@
+# -----------------------------
+# ResumeMatch Project .gitignore
+# -----------------------------
+
+# Python cache / bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+*.ipynb.json
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS system files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.out
+*.err
+*.tmp
+
+# Local data (don’t upload resumes / JDs)
+data/
+uploads/
+*.pdf
+*.docx
+*.txt
+
+# Trained models / embeddings
+*.h5
+*.npy
+
+
+# Secrets / API keys
+.env
+*.env
+.env.*
+*.key
+
+# Streamlit / app-specific
+.streamlit/
+__results__/
