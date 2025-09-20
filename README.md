@@ -94,7 +94,7 @@ os.environ["GEMINI_API_KEY"] = "your_api_key"
 4. Ensure your network allows outbound API calls to Gemini.
 
 ## ▶️ Demo Video
-[🎥 Watch ResumeMatch Demo](https://drive.google.com/file/d/1GAgpHx4dMgmVlXqzxZgRYD98Z-d8RUe2/view?usp=drive_link)
+[🎥 Watch ResumeMatch Demo](https://github.com/user-attachments/assets/16c9ce12-f0da-425f-9f1a-7fab65e3b5f5)
 
 ## 🔐 Data & Privacy
 
