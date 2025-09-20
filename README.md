@@ -33,7 +33,7 @@ Traditional Applicant Tracking Systems (ATS) rely on **keyword filters**. They m
 - Agreement & ranking metrics + **cluster visualization** (TF-IDF, LDA, Word2Vec and BERT)
 
 ## 📈 Results
-- **Custom NER** → **Best for Skills extraction** (precision/F1 & Jaccard win)  
+- **Custom NER** → **Best for Skills extraction** (Highest precision/F1 & Jaccard)  
 - **LLM parser** → **Best for Education**; **higher recall on Experience** (NER led on Experience F1/Jaccard)  
 - **LDA** → **Best ranking separation** (Separation@K)  
 - **BERT** → **Best reciprocal agreement & mutual rank;** clearest clusters in PCA  
